@@ -1,10 +1,10 @@
 :root {
-    --primaryText: #fff;
-    --secondaryText: #ff015e;
-    --primary: rgba(156, 39, 176, .60);
-    --secondary: rgba(255, 1, 94, .60); 
-    --buttonHover: rgba(156, 39, 176, .40);
-    --smallButtonHover: rgba(0, 0, 0, .25);
+    --primaryText: rgba(0, 0, 0, 0.60);
+    --secondaryText: rgba(20, 115, 245, 1);
+    --primary: rgba(50, 100, 230, 0.8);
+    --secondary: rgba(50, 100, 230, 0.5);
+    --buttonHover: rgba(50, 100, 230, 0.5);
+    --smallButtonHover: rgba(255, 255, 255, 0.15);
 }
 
 html {
@@ -34,7 +34,7 @@ body {
     background-attachment: fixed;
     /* Resizes the background image to cover the entire container */
     background-size: cover;
-    font-family: Futura, Verdana, sans-serif;
+    font-family: "Goudy Bookletter 1911", serif;
     line-height: 1.5;
     font-size: 18px;
     display: flex;
